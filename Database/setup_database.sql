@@ -42,9 +42,9 @@ IF NOT EXISTS (SELECT 1 FROM dbo.Usuarios)
 BEGIN
     INSERT INTO dbo.Usuarios (Nome, RfidTag, Ativo) 
     VALUES 
-        ('Pedro', '111', 1),
-        ('Professor', '111', 1), 
-        ('Visitante Bloqueado', '00000', 0);
+        ('Aluno', '29a08159', 1),
+        ('Professor', 'd9be345a', 1), 
+        ('Visitante Bloqueado', '592375a', 0);
         
     PRINT 'Usuários de teste inseridos com sucesso.';
 END
