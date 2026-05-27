@@ -1,0 +1,9 @@
+# Arquivos de Sistema e IDEs
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Ocultar arquivos com credenciais locais (caso a API venha para cá depois)
+appsettings.Development.json
+secrets.json
